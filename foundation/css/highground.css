@@ -1,0 +1,70 @@
+#hgblue-bk {
+	background-color: #005AAA;
+}
+
+#hgblue-font {
+	color: #0084FB;
+}
+
+#hgwhite-font {
+	color: #ffffff;
+}
+
+.iconColor {
+
+	-webkit-filter: hue-rotate(180deg);
+
+}
+
+/*#fill svg:hover {
+	fill: #00488;
+}*/
+
+/*img:hover > svg *{
+  fill: green;
+  stroke: white;
+}*/
+
+/*a:hover > svg *{
+	fill: green;
+	stroke: white;
+}*/
+
+
+/*SVG Hover Color Change -- Must place SVG files inline with HTML*/
+.svg-twitter {
+	width: 200px;
+	height: 200px;
+	transition: ease-out;
+	transition-duration: 0.1s;
+}
+
+.svg-twitter:hover {
+	fill: #004888;
+	transition-duration: 0.1s;
+	transition-timing-function:ease-in;
+
+}
+
+.navbaricons {
+	width: 30px;
+	height: 30px;
+	transition: ease-out;
+	transition-duration: 0.3s;
+}
+.navbaricons:hover {
+	fill: #fff;
+	transition: ease-in;
+	transition-druation: 0.1s;
+}
+
+#expandMotion {
+	width:140px;
+	height:auto;
+}
+
+#expandMotion:hover {
+	width: 100%;
+	transition: ease-in;
+	transition-duration: 0.5s;
+}
