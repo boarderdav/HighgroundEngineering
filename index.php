@@ -11,7 +11,7 @@
     <meta name="keywords" content="bootstrap, industrial theme, engineering theme, responsive, modern, clean">
     <meta name="author" content="Bootstrap Seven Themes">
     
-    <!-- Favicons
+    <!-- Favicons  
     ================================================== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -146,8 +146,8 @@
 
                 <form class="navbar-form navbar-right" role="search">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
+                        <!--<input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">-->
                             <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
                         </span>
                     </div>
@@ -303,7 +303,7 @@
             <div class="section-title text-center"><!-- Centered Section Title -->
                 <h2>Latest Works</h2>
                 <hr>
-                <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p>
+                <p>Check out our latest projects we've been working on.  We're excited to share all of the facinating industries we work in.  Click on some of our sample projects.</p>
                 <a class="read-more" href="project-3col.html">View All Works <span class="fa fa-chevron-circle-right"></span></a>
             </div>
 
@@ -312,7 +312,7 @@
                 <div class="item"><!-- Portfolio Item #1 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Satellite Installation</h4>
+                            <h4>Data Center Design</h4>
                             <br>
                             <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
                             <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
@@ -336,7 +336,7 @@
                 <div class="item"> <!-- Portfolio Item #3 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Architectural Design</h4>
+                            <h4>Industrial Upgrades</h4>
                             <br>
                             <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
                             <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>

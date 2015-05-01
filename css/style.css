@@ -630,7 +630,9 @@ a.read-more:hover>span {
     color: #ffffff;
 }
 .overlay.dark { background-color: rgba(0, 0, 0, 0.60) }
-.overlay.color { background-color: rgba(255, 182, 66, 0.85) }
+.overlay.color {
+	background-color: rgba(65,163,255,0.85)
+}
 .overlay.light {
     background-color: rgba(255, 255, 255, 0.5);
     color: #222222 !important;

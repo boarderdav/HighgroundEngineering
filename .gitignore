@@ -43,4 +43,5 @@ Temporary Items
 .apdisk
 
 # Dreamweaver XML DWSYNC files need to be ignored
+*.xml
 dwsync.xml
