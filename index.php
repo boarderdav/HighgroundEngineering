@@ -11,7 +11,7 @@
     <meta name="keywords" content="bootstrap, industrial theme, engineering theme, responsive, modern, clean">
     <meta name="author" content="Bootstrap Seven Themes">
     
-    <!-- Favicons  
+    <!-- Favicons   
     ================================================== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
