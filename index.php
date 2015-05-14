@@ -5,11 +5,9 @@
     ================================================== -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - Enhenyero Bootstrap Template</title>
-    <meta name="description" content="Enhenyero Bootstrap Template is perfect for Industrial, Engineering and other Corporate Companies. It is fully responsive, well docommented codes with clean and awesome design.">
-    <meta name="keywords" content="bootstrap, industrial theme, engineering theme, responsive, modern, clean">
-    <meta name="author" content="Bootstrap Seven Themes">
+
+    <!-- Header short -->
+    <?php include('php/header_nav.php');?>
     
     <!-- Favicons   
     ================================================== -->
@@ -21,7 +19,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="fonts/icons/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/icons/flaticon.css"> 
 
     <!-- Nivo Lightbox
     ================================================== -->
@@ -54,7 +52,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-  </head>
+  </head> 
   <body>
 
     <!-- Top Navigation
@@ -66,17 +64,17 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
 
                 <div class="col-sm-4 col-md-4">
-                    <div class="navbar-header">
-                        <a class="logo navbar-brand" href="#">Highground</a>
-                    </div>
+                   <!-- <div class="navbar-header"> -->
+                        <a href="#"><img src="img/hgs@400x120-18.svg"></a>
+                    <!--</div>-->
                 </div>  
 
                 <div class="col-sm-8 col-md-8">
                     <ul class="top-links list-unstyled text-right">
                         <li class="top-contact">
                             <ol class="list-inline">
-                                <li><i class="fa fa-phone"></i> : 1234 - 5678 - 9012</li>
-                                <li><i class="fa fa-envelope-o"></i> : contact@highgroundservices.com</li>
+                                <li><i class="fa fa-phone"></i> : 757 - 562 - 7080</li>
+                                <li><i class="fa fa-envelope-o"></i> : <?php include 'globals.php'; echo $site_email;?></li>
                             </ol>
                         </li>
                         <li>
@@ -113,33 +111,33 @@
             <div class="collapse navbar-collapse" id="myMenu">
                 <ul class="nav navbar-nav navbar-left">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="services.php">Services</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="project-2col.html">Projects - 2 Col</a></li>
-                        <li><a href="project-3col.html">Projects - 3 Col</a></li>
-                        <li><a href="single-project.html">Single Project</a></li>
+                        <li><a href="project-2col.php">Projects - 2 Col</a></li>
+                        <li><a href="project-3col.php">Projects - 3 Col</a></li>
+                        <li><a href="single-project.php">Single Project</a></li>
                       </ul>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="blog.html">Blog Default</a></li>
-                        <li><a href="blog-3col.html">Blog - 3 Col</a></li>
-                        <li><a href="blog-2col.html">Blog - 2 Col</a></li>
-                        <li><a href="single-blog.html">Single Blog Post</a></li>
+                        <li><a href="blog.php">Blog Default</a></li>
+                        <li><a href="blog-3col.php">Blog - 3 Col</a></li>
+                        <li><a href="blog-2col.php">Blog - 2 Col</a></li>
+                        <li><a href="single-blog.php">Single Blog Post</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="404-error.html">404 Error Page</a></li>
-                        <li><a href="faqs.html">FAQs</a></li>
-                        <li><a href="career.html">Career Form</a></li>
+                        <li><a href="team.php">Team</a></li>
+                        <li><a href="404-error.php">404 Error Page</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="career.php">Career Form</a></li>
                       </ul>
                     </li>
                 </ul>
@@ -166,25 +164,25 @@
             <div class="item active"> <!-- Slider Item #1 -->
                 <img src="img/slider/02.jpg" alt="...">
                 <div class="carousel-caption">
-                    <h1>Welcome to <br>Innov Company </h1>
-                    <p class="lead">Innov Company is a topnotch Engineering Company that serves all Engineering Field Services.</p>
-                    <a class="btn btn-default en-btn" href="about.html" role="button">Learn More</a>
+                    <h1>Welcome to <br>Highground </h1>
+                    <p class="lead">Highground Services is a topnotch Engineering and Construction Company that serves all industrial, commercial, and municipal industries.</p>
+                    <a class="btn btn-default en-btn" href="about.php" role="button">Learn More</a>
                 </div>
             </div>
             <div class="item"> <!-- Slider Item #2 -->
                 <img src="img/slider/03.jpg" alt="...">
                 <div class="carousel-caption">
-                    <h1>Leading in Civil <br>and Architecture</h1>
-                    <p class="lead">Trusted by Thousands of Companies in Civil and Architecture in the whole world</p>
-                    <a class="btn btn-default en-btn" href="services.html" role="button">Our Services</a>
+                    <h1>Leading in Enginering <br>and Construction</h1>
+                    <p class="lead">Trusted by Hundreds of Companies for Engineering and Construction across the nation.</p>
+                    <a class="btn btn-default en-btn" href="services.php" role="button">Our Services</a>
                 </div>
             </div>
             <div class="item"> <!-- Slider Item #3 -->
                 <img src="img/slider/01.jpg" alt="...">
                 <div class="carousel-caption">
-                    <h1>Your One-Stop <br>Engineering Company</h1>
-                    <p class="lead">We offer you all Engineering Services at the highest quality we could offer.</p>
-                    <a class="btn btn-default en-btn" href="about.html" role="button">Get Started Now</a>
+                    <h1>Your One-Stop <br>Services Company</h1>
+                    <p class="lead">We offer you all Engineering, Construction, and Industrial Services at the highest quality we could offer.</p>
+                    <a class="btn btn-default en-btn" href="about.php" role="button">Get Started Now</a>
                 </div>
             </div>
         </div>
@@ -207,9 +205,9 @@
                 <!-- Left Content 4 Cols -->
                 <div class="col-sm-4 col-md-4">
                     <div class="section-title text-left"> <!-- Left Section Title -->
-                        <h2>About <br>Enhenyero</h2>
+                        <h2>About <br>Highground</h2>
                         <hr>
-                        <small>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim.</small>
+                        <small>We are a small business, women-owned SWAM certified business with a big punch.  We serve our customers well with our wide range of services across all industries.</small>
                     </div>
                 </div>
 
@@ -219,9 +217,9 @@
                       $david = "I Love David Jenkins";
                       echo $david;
                       ?>
-                    <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu convallis id. In id vestibulum sapien. Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                    <p>Highground Services is a multi-discipline engineering services firm providing a broad base of needs to our commercial and industrial customers.  We excel in Mechanical, Electrical, Controls, and Fire Protection engineering projects in the industrial, commercial, and municipal markets.  Our practical knowledge of engineering systems and applications comes from years of hands-on experience involving projects of all sizes.  We ensure the highest quality for every engineering project while providing turn-key design services and solutions to all our customers.  We are professionally licensed in Virginia, Maryland, North Carolina, and Indiana.</p>
 
-                    <a class="read-more" href="about.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                    <a class="read-more" href="about.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                 </div>
 
             </div>
@@ -236,41 +234,41 @@
             <div class="section-title text-center"><!-- Centered Section Title -->
                 <h2>Our Services</h2>
                 <hr>
-                <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p> 
-                <a class="read-more" href="services.html">View All Services <span class="fa fa-chevron-circle-right"></span></a>
+                <p>We provide the best Engineering, Construction, Industrial Services to our customers. We stand behind our work and continue to grow in this fast paced industry.  We're leaders in the community who propel organizations to be successful.</p> 
+                <a class="read-more" href="services.php">View All Services <span class="fa fa-chevron-circle-right"></span></a>
             </div>
 
             <div class="row">
                 <div class="col-sm-4 col-md-4">
                     <div class="service"> <!-- Service #1 -->
-                        <a href="service/civil-architecture.html">
+                        <a href="service/civil-architecture.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/civil-architecture.html"><h4>Civil and Architecture</h4></a>
-                        <p>Fusce laoreet ultricies sapien sed efficitur orci venenatis lotem ne ut Maecenas tortor magna quea velit inringilla sed. Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies</p>
-                        <a class="read-more" href="service/civil-architecture.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                        <a href="service/civil-architecture.php"><h4>Engineering</h4></a>
+                        <p>Highground Services is a multi-discipline engineering services firm providing a broad range of services to our commercial and industrial customers. We excel in Mechanical, Electrical, and Controls engineering projects in the industrial, commercial, and municipal markets.</p>
+                        <a class="read-more" href="service/civil-architecture.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 col-md-4">
                     <div class="service"> <!-- Service #2 -->
-                        <a href="service/mechanical.html">
+                        <a href="service/mechanical.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/mechanical.html"><h4>Mechanical Engineering</h4></a>
-                        <p>Nulla interdum dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu convallis id. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.</p>
-                        <a class="read-more" href="service/mechanical.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                        <a href="service/mechanical.php"><h4>Construction</h4></a>
+                        <p>Our construction services are broad as we cover the spectrum of electrical, civil, controls, and mechanical trades. We have a strongest background in electrical and custom control intregration systems. From conceptual engineering and construction to startup, we’re prepared to implement our construction services for any phase of your project.</p>
+                        <a class="read-more" href="service/mechanical.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 col-md-4">
                     <div class="service"> <!-- Service #3 -->
-                        <a href="service/electrical.html">
+                        <a href="service/electrical.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/electrical.html"><h4>Electrical / Electronics</h4></a>
-                        <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p>
-                        <a class="read-more" href="service/electrical.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                        <a href="service/electrical.php"><h4>Industrial Services</h4></a>
+                        <p>We provide design, implementation, continuous improvement, and sustainability support for existing and new Process Control Systems implementing both Distributed Control Systems (DCS) and Programmable Logic Control Systems (PLC) for our customers.  </p>
+                        <a class="read-more" href="service/electrical.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -288,7 +286,7 @@
                         <h2>Looking for the Best Engineering Solution for your Project?</h2>
                     </div>
                     <div class="col-md-3">
-                        <a class="btn btn-default en-btn light" href="contact.html" role="button">Get Started Now</a>
+                        <a class="btn btn-default en-btn light" href="contact.php" role="button">Get Started Now</a>
                     </div>
                 </div>
             </div>
@@ -304,7 +302,7 @@
                 <h2>Latest Works</h2>
                 <hr>
                 <p>Check out our latest projects we've been working on.  We're excited to share all of the facinating industries we work in.  Click on some of our sample projects.</p>
-                <a class="read-more" href="project-3col.html">View All Works <span class="fa fa-chevron-circle-right"></span></a>
+                <a class="read-more" href="project-3col.php">View All Works <span class="fa fa-chevron-circle-right"></span></a>
             </div>
 
             <div id="portfolio-items" class="owl-carousel owl-theme">
@@ -312,10 +310,10 @@
                 <div class="item"><!-- Portfolio Item #1 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Data Center Design</h4>
+                            <h4>Engineering Studies</h4>
                             <br>
-                            <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
-                            <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
+                            <p>We've performed top qualtiy data center designs to serve the highest engineering quality to our customers. </p>
+                            <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
                     </div>
@@ -324,10 +322,10 @@
                 <div class="item"> <!-- Portfolio Item #2 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Building Construction</h4>
+                            <h4>Jordan Bridge</h4>
                             <br>
                             <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
-                            <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
+                            <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
                     </div>
@@ -336,10 +334,10 @@
                 <div class="item"> <!-- Portfolio Item #3 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Industrial Upgrades</h4>
+                            <h4>Industrial Controls</h4>
                             <br>
                             <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
-                            <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
+                            <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
                     </div>
@@ -351,7 +349,7 @@
                             <h4>Commercial Building</h4>
                             <br>
                             <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
-                            <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
+                            <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
                     </div>
@@ -360,10 +358,10 @@
                 <div class="item"><!-- Portfolio Item #5 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Auto Repairs</h4>
+                            <h4>Automated Systems</h4>
                             <br>
-                            <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
-                            <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
+                            <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligu.</p>
+                            <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
                     </div>
@@ -372,10 +370,10 @@
                 <div class="item"><!-- Portfolio Item #6 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>House Planning</h4>
+                            <h4>Technical Services</h4>
                             <br>
                             <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
-                            <a class="read-more" href="single-project.html">View Project <span class="fa fa-chevron-circle-right"></span></a>
+                            <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
                     </div>
@@ -394,20 +392,20 @@
 
                 <div id="testimonial" class="owl-carousel owl-theme"> <!-- Testimonial Slider Wrap -->
                     <div class="item">
-                        <blockquote>" Marcus is a full time Internet Marketing Analyst and Strategist. Her brain is an ocean of ideas and creativeness, and she loves expressing and sharing those ideas on her writings and artworks. Good service provider."
-                        <footer>LJ, Abc Company</footer>
+                        <blockquote>" John is the owner of Hopke and Associates Architectural firm and professional architect in Virginia.  His brain is an ocean of ideas and creativeness, and he loves expressing and sharing those ideas with his architectural creations."
+                        <footer>John, Hopke & Associates</footer>
                         </blockquote>
                     </div>
 
                     <div class="item">
-                        <blockquote>" She is not perfect nor a perfectionist, but she is a believer of perfection in every work she does. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                            <footer>Liza, Web Geekster</footer>
+                        <blockquote>" He is not perfect nor a perfectionist, but he is a believer of perfection in every work he does. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
+                            <footer>David, Web Design</footer>
                         </blockquote>
                     </div>
 
                     <div class="item">
                         <blockquote>" Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. "
-                        <footer>Marcus, Coders Playground</footer>
+                        <footer>Chris, Engineering Design</footer>
                         </blockquote>
                     </div>
                 </div><!-- End Testimonial Slider Wrap -->
@@ -425,14 +423,14 @@
                 <h2>Latest News</h2>
                 <hr>
                 <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p>
-                <a class="read-more" href="blog.html">View All News <span class="fa fa-chevron-circle-right"></span></a>
+                <a class="read-more" href="blog.php">View All News <span class="fa fa-chevron-circle-right"></span></a>
             </div>
 
             <div class="row">
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #1 -->
                         <span class="meta-date"><i class="fa fa-calendar"></i> March 25, 2015</span>
-                        <a href="single-blog.html"><h4>Map Out And Show Appealing Business Design Architecture</h4></a>
+                        <a href="single-blog.php"><h4>Map Out And Show Appealing Business Design Architecture</h4></a>
                         <hr>
                         <p class="meta">
                             <span class="meta-tags">
@@ -445,14 +443,14 @@
                             </span>
                         </p>
                         <p>So you want to put up a business? Before you proceed, where do the funds come from? Would you take out a loan? Do you have the sufficient funds to settle all potential obligations and expenses in setting up your dream company?...</p>
-                        <a class="read-more" href="single-blog.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                        <a class="read-more" href="single-blog.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #2 -->
                         <span class="meta-date"><i class="fa fa-calendar"></i> March 12, 2015</span>
-                        <a href="single-blog.html"><h4>Construction Going Green - Green Architecture</h4></a>
+                        <a href="single-blog.php"><h4>Construction Going Green - Green Architecture</h4></a>
                         <hr>
                         <p class="meta">
                             <span class="meta-tags">
@@ -465,14 +463,14 @@
                             </span>
                         </p>
                         <p>Our planet is really feeling the heat of Global Warming. Humans are consuming resources like never before. A new coal-fired power plant is built in China EVERY WEEK! This all signifies that consumption of raw materials will keep on increasing...</p>
-                        <a class="read-more" href="single-blog.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                        <a class="read-more" href="single-blog.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
 
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #3 -->
                         <span class="meta-date"><i class="fa fa-calendar"></i> March 6, 2015</span>
-                        <a href="single-blog.html"><h4>New Or Used Construction Equipment - The Return On Investment Decision</h4></a>
+                        <a href="single-blog.php"><h4>New Or Used Construction Equipment - The Return On Investment Decision</h4></a>
                         <hr>
                         <p class="meta">
                             <span class="meta-tags">
@@ -486,7 +484,7 @@
                             </span>
                         </p>
                         <p>It has always been a debate whether to buy new or used construction equipment. Smaller fleets prefer to buy used construction equipment as they attract less capital investments. Another reason for people to opt for used...</p>
-                        <a class="read-more" href="single-blog.html">Read More <span class="fa fa-chevron-circle-right"></span></a>
+                        <a class="read-more" href="single-blog.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
 
@@ -506,7 +504,7 @@
                     <div class="section-title text-left"> <!-- Left Section Title -->
                         <h2>Our Trusted<br>Partners</h2>
                         <hr>
-                        <small>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim.</small>
+                        <small>We've established trusted partners in our 10 years of service - ensuring quality relationships and partnerships with our clients. </small>
                     </div>
                 </div>
 
@@ -533,166 +531,10 @@
     </div>
 
     <!-- Footer Area -->
-    <div id="en-footer">
-        <div class="footer-content">
-            <div class="container">
 
-                <div class="row">
-
-                    <div class="col-sm-5 col-md-5">
-                        <div class="widget">
-                            <div class="widget-title text-left">
-                                <h4>About Us</h4>
-                                <hr>
-                            </div>
-                            <a class="logo footer-logo" href="#">Enhenyero</a>
-                            <br>
-                            <small>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </small>
-                            <br>
-                            <br>
-                            <address>
-                                <strong>Enhenyero INC.</strong><br>
-                                Igbalangao, Bugasong, Antique<br>
-                                Philippines 5704<br>
-                                <abbr title="Phone">P:</abbr> 123-456-7890
-                            </address>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-md-4">
-                        <div class="widget">
-                            <div class="widget-title text-left">
-                                <h4>Services</h4>
-                                <hr>
-                            </div>
-                            <ul class="list-unstyled list-block">
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Civil and Architecture</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i> <a href="#">Mechanical Engineering</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Industrial Engineering</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Electrical and Electronics</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Communications Engineering</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Constructions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3 col-md-3">
-                        <div class="widget">
-                            <div class="widget-title text-left">
-                                <h4>Page Links</h4>
-                                <hr>
-                            </div>
-                            <ul class="list-unstyled list-block">
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">About</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Our Team</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Works</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Services</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Latest News</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Contact</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Career</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="clearfix"></div>
-                <div class="smallspacer"></div>
-
-                <div class="row">
-
-                    <div class="col-sm-3 col-md-3">
-                        <div class="widget">
-                            <div class="widget-title text-left">
-                                <h4>General Info</h4>
-                                <hr>
-                            </div>
-                            <ul class="list-unstyled list-block">
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">FAQs</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Privacy Policy</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Terms of Use</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Support</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Blog Posts</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Error Page</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i><a href="#">Pricing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-md-4">
-                        <div class="widget">
-                            <div class="widget-title text-left">
-                                <h4>Subscribe With Us</h4>
-                                <hr>
-                            </div>
-                            <p>Get the latest report about the project and company profile.</p>
-                            <!--Newsletter form start-->
-                            <form role="form" action="newsletter.php" method="post" autocomplete="off">
-                                <div class="form-group">
-                                  <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required >
-                                </div>
-                                <button type="submit" class="btn btn-default en-btn">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-5 col-md-5">
-                        <div class="widget">
-                            <div class="widget-title text-left">
-                                <h4>Latest Posts</h4>
-                                <hr>
-                            </div>
-
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <a href="#">
-                                      <img class="media-object" alt="64x64" src="http://placehold.it/64x64">
-                                    </a>
-                                  </div>
-                                  <div class="media-body">
-                                    <a href="#"><h5>Map Out And Show Appealing Business Design Architecture</h5></a>
-                                    <small>So you want to put up a business? Before you proceed, where do the funds come from?...</small>
-                                  </div>
-                            </div>
-
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <a href="#">
-                                      <img class="media-object" alt="64x64" src="http://placehold.it/64x64">
-                                    </a>
-                                  </div>
-                                  <div class="media-body">
-                                    <a href="#"><h5>Construction Going Green - Green Architecture</h5></a>
-                                    <small>Our planet is really feeling the heat of Global Warming. Humans are...</small>
-                                  </div>
-                            </div>
-
-                            <div class="media">
-                                <div class="media-left media-middle">
-                                    <a href="#">
-                                      <img class="media-object" alt="64x64" src="http://placehold.it/64x64">
-                                    </a>
-                                  </div>
-                                  <div class="media-body">
-                                    <a href="#"><h5>Map Out And Show Appealing Business Design Architecture</h5></a>
-                                    <small>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo...</small>
-                                  </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-        <div class="bottom-footer">
-            <div class="container text-center">
-                <p>All Rights Reserved © 2015 | <a href="#">Highground Services Inc.</a></p>
-            </div>
-        </div>
-    </div>
-
+	<?php include('php/footer.php');?>
+    
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
