@@ -165,7 +165,7 @@
                 <img src="img/slider/02.jpg" alt="...">
                 <div class="carousel-caption">
                     <h1>Welcome to <br>Highground </h1>
-                    <p class="lead">Highground Services is a topnotch Engineering and Construction Company that serves all industrial, commercial, and municipal industries.</p>
+                    <p class="lead">Highground Services is a top-notch Engineering and Construction Company that serves all industrial, commercial, and municipal industries.</p>
                     <a class="btn btn-default en-btn" href="about.php" role="button">Learn More</a>
                 </div>
             </div>
@@ -324,7 +324,7 @@
                         <div class="hover-text off">
                             <h4>Jordan Bridge</h4>
                             <br>
-                            <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                            <p>PThe Jordan Bridge was a major project of ours.  We contributed as the lead role for electrical design, construction and controls integration.  We also provided consultant engineering services to a variety of preventative maintenance plans to help ensure the long lifecycle of this large bridge.</p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -336,7 +336,7 @@
                         <div class="hover-text off">
                             <h4>Industrial Controls</h4>
                             <br>
-                            <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
+                            <p>We've completed some of the best industrial controls projects in the area and we even maintain the systems so they perform at he hightest quality for our customers.</p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -348,7 +348,7 @@
                         <div class="hover-text off">
                             <h4>Commercial Building</h4>
                             <br>
-                            <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                            <p>We've contributed may great commercial building projects and stand behind our quality work.  Our customers understand the importance sustainability and we always exceed their expectations.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -360,7 +360,7 @@
                         <div class="hover-text off">
                             <h4>Automated Systems</h4>
                             <br>
-                            <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligu.</p>
+                            <p>Automated systems are some of our specialties as we've completed some state of the art projects for a variety of clients. </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -372,7 +372,7 @@
                         <div class="hover-text off">
                             <h4>Technical Services</h4>
                             <br>
-                            <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                            <p>We provide a variety of technical services ranging from information technology, technical writing, procedure generating, and maintenance plans. </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
