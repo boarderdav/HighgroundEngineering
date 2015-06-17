@@ -55,105 +55,7 @@
   </head> 
   <body>
 
-    <!-- Top Navigation
-    ========================-->
-    <nav id="top-menu">
-        <div class="container">
-            <div class="row">
-
-                <!-- Brand and toggle get grouped for better mobile display -->
-
-                <div class="col-sm-4 col-md-4">
-                   <!-- <div class="navbar-header"> -->
-                        <a href="#"><img src="img/hgs@400x120-18.svg"></a>
-                    <!--</div>-->
-                </div>  
-
-                <div class="col-sm-8 col-md-8">
-                    <ul class="top-links list-unstyled text-right">
-                        <li class="top-contact">
-                            <ol class="list-inline">
-                                <li><i class="fa fa-phone"></i> : 757 - 562 - 7080</li>
-                                <li><i class="fa fa-envelope-o"></i> : <?php include 'globals.php'; echo $site_email;?></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol class="social-icons list-inline">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ol>
-                        </li>
-                    </ul>
-                </div>  
-                            
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Navigation
-    ========================-->
-    <div id="sticky-anchor"></div>
-    <nav id="main-menu" class="navbar navbar-default">
-        <div class="container">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
-                    <i class="fa fa-list-ul"></i>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="myMenu">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="project-2col.php">Projects - 2 Col</a></li>
-                        <li><a href="project-3col.php">Projects - 3 Col</a></li>
-                        <li><a href="single-project.php">Single Project</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="blog.php">Blog Default</a></li>
-                        <li><a href="blog-3col.php">Blog - 3 Col</a></li>
-                        <li><a href="blog-2col.php">Blog - 2 Col</a></li>
-                        <li><a href="single-blog.php">Single Blog Post</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="team.php">Team</a></li>
-                        <li><a href="404-error.php">404 Error Page</a></li>
-                        <li><a href="faqs.php">FAQs</a></li>
-                        <li><a href="career.php">Career Form</a></li>
-                      </ul>
-                    </li>
-                </ul>
-
-                <form class="navbar-form navbar-right" role="search">
-                    <div class="input-group">
-                        <!--<input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">-->
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                </form>
-            </div><!-- /.navbar-collapse -->
-
-        </div><!-- /.container -->
-    </nav>
+	<?php include('php/header_main_nav.php');?>
 
     <!-- Main Navigation
     ========================-->
@@ -310,9 +212,9 @@
                 <div class="item"><!-- Portfolio Item #1 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Engineering Studies</h4>
+                            <h4>Jordan Bridge</h4>
                             <br>
-                            <p>We've performed top qualtiy data center designs to serve the highest engineering quality to our customers. </p>
+                            <p>The Jordan Bridge was one of the biggest projects Highground has completed. View the project for more details about our success.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -322,9 +224,9 @@
                 <div class="item"> <!-- Portfolio Item #2 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Jordan Bridge</h4>
+                            <h4>Engineering Studies</h4>
                             <br>
-                            <p>PThe Jordan Bridge was a major project of ours.  We contributed as the lead role for electrical design, construction and controls integration.  We also provided consultant engineering services to a variety of preventative maintenance plans to help ensure the long lifecycle of this large bridge.</p>
+                            <p>Highground has an accomplished resume of engineering studies for a variety of clients.  Check out some of the project's we've completed. </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -334,9 +236,9 @@
                 <div class="item"> <!-- Portfolio Item #3 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Industrial Controls</h4>
+                            <h4>Integrated Controls</h4>
                             <br>
-                            <p>We've completed some of the best industrial controls projects in the area and we even maintain the systems so they perform at he hightest quality for our customers.</p>
+                            <p>Integrated controls projects are one of our specialties. We've worked with industry leaders to provide the best systems possible.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -348,7 +250,7 @@
                         <div class="hover-text off">
                             <h4>Commercial Building</h4>
                             <br>
-                            <p>We've contributed may great commercial building projects and stand behind our quality work.  Our customers understand the importance sustainability and we always exceed their expectations.  </p>
+                            <p>We've been involved with countless commercial building projects both large and small. Check out our past history of completed projects. </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -358,9 +260,9 @@
                 <div class="item"><!-- Portfolio Item #5 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Automated Systems</h4>
+                            <h4>Industrial Services</h4>
                             <br>
-                            <p>Automated systems are some of our specialties as we've completed some state of the art projects for a variety of clients. </p>
+                            <p>We provide a variety of industrial services for our clients. High quality performance is what we strive for in every project.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -370,9 +272,9 @@
                 <div class="item"><!-- Portfolio Item #6 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
-                            <h4>Technical Services</h4>
+                            <h4>Technical Writing</h4>
                             <br>
-                            <p>We provide a variety of technical services ranging from information technology, technical writing, procedure generating, and maintenance plans. </p>
+                            <p>Technical writing is a skill that Highground has mastered.  Whether it's preventative maintenance plans, or technical documentation, we've handled it all.</p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
                         <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
@@ -398,14 +300,14 @@
                     </div>
 
                     <div class="item">
-                        <blockquote>" He is not perfect nor a perfectionist, but he is a believer of perfection in every work he does. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                            <footer>David, Web Design</footer>
+                        <blockquote>" Highground is one of the best companies in the world and is the perfect company for every job they've ever bid on.  "
+                            <footer>C. Bailey, Engineering Excellence</footer>
                         </blockquote>
                     </div>
 
                     <div class="item">
                         <blockquote>" Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. "
-                        <footer>Chris, Engineering Design</footer>
+                        <footer>David, Web Developer Enterprise</footer>
                         </blockquote>
                     </div>
                 </div><!-- End Testimonial Slider Wrap -->
@@ -422,20 +324,20 @@
             <div class="section-title text-center"><!-- Centered Section Title -->
                 <h2>Latest News</h2>
                 <hr>
-                <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p>
-                <a class="read-more" href="blog.php">View All News <span class="fa fa-chevron-circle-right"></span></a>
+                <p>Here are some of the Latest News items in the Highgrond World. </p>
+                <a class="read-more" href="awards.php">View All News <span class="fa fa-chevron-circle-right"></span></a>
             </div>
 
             <div class="row">
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #1 -->
                         <span class="meta-date"><i class="fa fa-calendar"></i> March 25, 2015</span>
-                        <a href="single-blog.php"><h4>Map Out And Show Appealing Business Design Architecture</h4></a>
+                        <a href="single-blog.php"><h4>Map Out And Show Appealing Business Design Layouts</h4></a>
                         <hr>
                         <p class="meta">
                             <span class="meta-tags">
                                 <i class="fa fa-tags"></i> 
-                                <a href="#">Architecture</a>
+                                <a href="#">Construction</a>
                             </span> 
                             <span class="meta-comments">
                                 <i class="fa fa-comments"></i> 
@@ -450,12 +352,12 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #2 -->
                         <span class="meta-date"><i class="fa fa-calendar"></i> March 12, 2015</span>
-                        <a href="single-blog.php"><h4>Construction Going Green - Green Architecture</h4></a>
+                        <a href="single-blog.php"><h4>Construction Going Green - Green Engineering/h4></a>
                         <hr>
                         <p class="meta">
                             <span class="meta-tags">
                                 <i class="fa fa-tags"></i> 
-                                <a href="#">Architecture</a>
+                                <a href="#">Engineering</a>
                             </span> 
                             <span class="meta-comments">
                                 <i class="fa fa-comments"></i> 
@@ -470,20 +372,20 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #3 -->
                         <span class="meta-date"><i class="fa fa-calendar"></i> March 6, 2015</span>
-                        <a href="single-blog.php"><h4>New Or Used Construction Equipment - The Return On Investment Decision</h4></a>
+                        <a href="single-blog.php"><h4>Combination Engineering & Construction Firms - Top 10 Benefits</h4></a>
                         <hr>
                         <p class="meta">
                             <span class="meta-tags">
                                 <i class="fa fa-tags"></i> 
-                                <a href="#">Contruction</a>,
-                                <a href="#">Civil</a>
+                                <a href="#">Engineering</a>,
+                                <a href="#">Construction</a>
                             </span> 
                             <span class="meta-comments">
                                 <i class="fa fa-comments"></i> 
                                 <a href="">2 Comments</a>
                             </span>
                         </p>
-                        <p>It has always been a debate whether to buy new or used construction equipment. Smaller fleets prefer to buy used construction equipment as they attract less capital investments. Another reason for people to opt for used...</p>
+                        <p>It has always been a debate whether to use an individual design and construction firm.  Highground is your one-stop shop engineering and construction firm that offers so muhc more...</p>
                         <a class="read-more" href="single-blog.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
@@ -532,7 +434,7 @@
 
     <!-- Footer Area -->
 
-	<?php include('php/footer.php');?>
+	<?php include('php/footer.php');?> 
     
     
 

@@ -54,106 +54,8 @@
   </head>
   <body>
 
-    <!-- Top Navigation
-    ========================-->
-    <nav id="top-menu">
-        <div class="container">
-            <div class="row">
-
-                <!-- Brand and toggle get grouped for better mobile display -->
-
-                <div class="col-sm-4 col-md-4">
-                   <!-- <div class="navbar-header"> -->
-                        <a href="#"><img src="img/hgs@400x120-18.svg"></a>
-                    <!--</div>-->
-                </div>  
-
-                <div class="col-sm-8 col-md-8">
-                    <ul class="top-links list-unstyled text-right">
-                        <li class="top-contact">
-                            <ol class="list-inline">
-                                <li><i class="fa fa-phone"></i> : 757 - 562 - 7080</li>
-                                <li><i class="fa fa-envelope-o"></i> : <?php include 'globals.php'; echo $site_email;?></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol class="social-icons list-inline">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ol>
-                        </li>
-                    </ul>
-                </div>  
-                            
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Navigation
-    ========================-->
-    <div id="sticky-anchor"></div>
-    <nav id="main-menu" class="navbar navbar-default">
-        <div class="container">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
-                    <i class="fa fa-list-ul"></i>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="myMenu">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li class="dropdown active">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li class="active"><a href="project-2col.php">Projects - 2 Col</a></li>
-                        <li><a href="project-3col.php">Projects - 3 Col</a></li>
-                        <li><a href="single-project.php">Single Project</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="blog.php">Blog Default</a></li>
-                        <li><a href="blog-3col.php">Blog - 3 Col</a></li>
-                        <li><a href="blog-2col.php">Blog - 2 Col</a></li>
-                        <li><a href="single-blog.php">Single Blog Post</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="team.php">Team</a></li>
-                        <li><a href="404-error.php">404 Error Page</a></li>
-                        <li><a href="faqs.php">FAQs</a></li>
-                        <li><a href="career.php">Career Form</a></li>
-                      </ul>
-                    </li>
-                </ul>
-
-                <form class="navbar-form navbar-right" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                </form>
-            </div><!-- /.navbar-collapse -->
-
-        </div><!-- /.container -->
-    </nav>
-
+	<?php include('php/header_main_nav.php');?>
+    
     <!-- Page Header
     ========================-->
     <div id="en-header">
@@ -174,12 +76,12 @@
 
             <ul class="list-inline cat">
                 <li><a href="#" data-filter="*" class="active">All</a></li>
-                <li><a href="#" data-filter=".civil">Civil and Architecture</a></li>
                 <li><a href="#" data-filter=".construction">Construction</a></li>
                 <li><a href="#" data-filter=".communication">Communications</a></li>
                 <li><a href="#" data-filter=".mechanical">Mechanical</a></li>
                 <li><a href="#" data-filter=".electrical">Electrical</a></li>
                 <li><a href="#" data-filter=".industrial">Industrial</a></li>
+                <li><a href="#" data-filter=".civil">Civil and Architecture</a></li>
                 <li><a href="#" data-filter=".management">Management</a></li>
             </ul>
 
@@ -190,13 +92,13 @@
             <div class="row">
             <div id="itemsWork">
 
-                <div class="col-sm-6 col-md-6 col-lg-6 communication">
+                <div class="col-sm-6 col-md-6 col-lg-6 all civil mechanical industrial communication">
                     <div class="item"><!-- Portfolio Item #1 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>Satellite Installation</h4>
+                                <h4>Site Improvement Engineering</h4>
                                 <br>
-                                <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
+                                <p>Site Improvement Engineering projects are something we've worked with for over a decade.    </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -204,13 +106,13 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-6 col-lg-6 construction civil">
+                <div class="col-sm-6 col-md-6 col-lg-6 mechanical construction civil">
                     <div class="item"> <!-- Portfolio Item #2 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>Building Construction</h4>
+                                <h4>Mechancial Engineering</h4>
                                 <br>
-                                <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                                <p>Mechanical Engineering projects have been some of the industries we've worked in most for a variety of clients.</p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -222,9 +124,9 @@
                     <div class="item"> <!-- Portfolio Item #3 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>Industrial Management</h4>
+                                <h4>Industrial Services</h4>
                                 <br>
-                                <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
+                                <p>Highground provides a wide range of Industrial services for a variety of clients which serve some of the most demanding facilities in the industry.  </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -236,9 +138,9 @@
                     <div class="item"><!-- Portfolio Item #4 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>System Installation</h4>
+                                <h4>System Integration</h4>
                                 <br>
-                                <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                                <p>Systems installation and systems integration are an area that Highground has ample exerience with. Check out our project history. </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -250,9 +152,9 @@
                     <div class="item"><!-- Portfolio Item #5 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>Home Electrical Installation</h4>
+                                <h4>Electrical Substation Design</h4>
                                 <br>
-                                <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
+                                <p>Electrical substations are an area we've aquired a tremendous amount of quality history with.  We've designed some of the best substation configurations on the market.  </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -264,9 +166,9 @@
                     <div class="item"><!-- Portfolio Item #6 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>Plantation Construction</h4>
+                                <h4>Control Systems</h4>
                                 <br>
-                                <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                                <p>Control systems are our bread and butter.  Highground has designed some of the best systems on the market for a variety of clients. </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -280,7 +182,7 @@
                             <div class="hover-text off">
                                 <h4>Architectural Design</h4>
                                 <br>
-                                <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
+                                <p>Highground has partnered with a variety of architectural design firms to provide the highest quality building renovations and designs for our clients.  </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -294,7 +196,7 @@
                             <div class="hover-text off">
                                 <h4>Commercial Building</h4>
                                 <br>
-                                <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                                <p>Commercial Buildings are an area we've worked with for over a decade.  Our construction team and design group are an integral part of our success. </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -302,13 +204,13 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-6 col-lg-6 mechanical">
+                <div class="col-sm-6 col-md-6 col-lg-6 construction mechanical">
                     <div class="item"><!-- Portfolio Item #5 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>Auto Repairs</h4>
+                                <h4>Construction Services</h4>
                                 <br>
-                                <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.  </p>
+                                <p>Highground provides a variety of construction services for a wide range of clients in the Hampton Roads area and beyond.   </p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">
@@ -316,13 +218,13 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-6 col-lg-6 civil construction">
+                <div class="col-sm-6 col-md-6 col-lg-6 communications civil construction">
                     <div class="item"><!-- Portfolio Item #6 -->
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <h4>House Planning</h4>
+                                <h4>Technical Writing</h4>
                                 <br>
-                                <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                                <p>Our Technical Writing staff provides the best quality services time and time again. From preventative maintenance plans, to specifications writing, we've been successful with them all.</p>
                                 <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                             </div>
                             <img src="http://placehold.it/800x550" alt="..." class="img-responsive">

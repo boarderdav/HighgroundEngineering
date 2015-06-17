@@ -54,105 +54,7 @@
   </head>
   <body>
 
-    <!-- Top Navigation
-    ========================-->
-    <nav id="top-menu">
-        <div class="container">
-            <div class="row">
-
-                <!-- Brand and toggle get grouped for better mobile display -->
-
-                <div class="col-sm-4 col-md-4">
-                   <!-- <div class="navbar-header"> -->
-                        <a href="#"><img src="img/hgs@400x120-18.svg"></a>
-                    <!--</div>-->
-                </div>  
-
-                <div class="col-sm-8 col-md-8">
-                    <ul class="top-links list-unstyled text-right">
-                        <li class="top-contact">
-                            <ol class="list-inline">
-                                <li><i class="fa fa-phone"></i> : 757 - 562 - 7080</li>
-                                <li><i class="fa fa-envelope-o"></i> : <?php include 'globals.php'; echo $site_email;?></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <ol class="social-icons list-inline">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ol>
-                        </li>
-                    </ul>
-                </div>  
-                            
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Navigation
-    ========================-->
-    <div id="sticky-anchor"></div>
-    <nav id="main-menu" class="navbar navbar-default">
-        <div class="container">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
-                    <i class="fa fa-list-ul"></i>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="myMenu">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="services.php">Services</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="project-2col.php">Projects - 2 Col</a></li>
-                        <li><a href="project-3col.php">Projects - 3 Col</a></li>
-                        <li><a href="single-project.php">Single Project</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="blog.php">Blog Default</a></li>
-                        <li><a href="blog-3col.php">Blog - 3 Col</a></li>
-                        <li><a href="blog-2col.php">Blog - 2 Col</a></li>
-                        <li><a href="single-blog.php">Single Blog Post</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="team.php">Team</a></li>
-                        <li><a href="404-error.php">404 Error Page</a></li>
-                        <li><a href="faqs.php">FAQs</a></li>
-                        <li><a href="career.php">Career Form</a></li>
-                      </ul>
-                    </li>
-                </ul>
-
-                <form class="navbar-form navbar-right" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-                        </span>
-                    </div>
-                </form>
-            </div><!-- /.navbar-collapse -->
-
-        </div><!-- /.container -->
-    </nav>
+	<?php include('php/header_main_nav.php');?>
 
     <!-- Page Header
     ========================-->
@@ -177,13 +79,13 @@
                     <div class="section-title text-left"> <!-- Left Section Title -->
                         <h2>We Provide all <br>Engineering Services</h2>
                         <hr>
-                        <small>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim.</small>
+                        <small>We are an elite engineering services firm that provides Engineering, Construction, and Industrial Services to our clients.  </small>
                     </div>
                 </div>
 
                 <!-- Right Content 8 Cols -->
                 <div class="col-sm-8 col-md-8">
-                    <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu convallis id. In id vestibulum sapien. Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
+                    <p>QWe are an elite engineering services firm that provides Engineering, Construction, and Industrial Services to our clients.  We are an elite engineering services firm that provides Engineering, Construction, and Industrial Services to our clients.</p>
 
                     <a class="read-more" href="project-3col.php">View Our Works <span class="fa fa-chevron-circle-right"></span></a>
                 </div>
@@ -202,8 +104,8 @@
                         <a href="service/civil-architecture.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/civil-architecture.php"><h4>Civil and Architecture</h4></a>
-                        <p>Fusce laoreet ultricies sapien sed efficitur orci venenatis lotem ne ut Maecenas tortor magna quea velit inringilla sed. Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies</p>
+                        <a href="service/civil-architecture.php"><h4>Engineering and Design</h4></a>
+                        <p>We provide the highest quality engineering and design projects for all of our clients.  We've perfected our execution over the last decade to ensure the highest quality performance in every project we handle. </p>
                         <a class="read-more" href="service/civil-architecture.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
@@ -213,8 +115,8 @@
                         <a href="service/mechanical.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/mechanical.php"><h4>Mechanical Engineering</h4></a>
-                        <p>Nulla interdum dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu convallis id. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.</p>
+                        <a href="service/mechanical.php"><h4>Construction Services</h4></a>
+                        <p>Mechanical Engineering is one of our strongest engineering fields.  We've...  dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu convallis id. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.</p>
                         <a class="read-more" href="service/mechanical.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
@@ -224,8 +126,8 @@
                         <a href="service/electrical.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/electrical.php"><h4>Electrical / Electronics</h4></a>
-                        <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p>
+                        <a href="service/electrical.php"><h4>Systems Integration</h4></a>
+                        <p>Electrical Engineering is one of our strongest engineering fields.  We've been involved in virtualy every type of project on the market and have had success with all of them.  We're a skilled services firm who can handle any type of electrical engineering project otu there. </p>
                         <a class="read-more" href="service/electrical.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
@@ -240,8 +142,8 @@
                         <a href="service/industrial.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/industrial.php"><h4>Industrial Engineering</h4></a>
-                        <p>Fusce laoreet ultricies sapien sed efficitur orci venenatis lotem ne ut Maecenas tortor magna quea velit inringilla sed. Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies</p>
+                        <a href="service/industrial.php"><h4>Plant Maintenance</h4></a>
+                        <p>Industrial Engineering is an area in which Highground has over a century of combined experience working with some of the most sophisticated facilities in the area.  </p>
                         <a class="read-more" href="service/industrial.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
@@ -251,8 +153,8 @@
                         <a href="service/construction.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/construction.php"><h4>Building Constructions</h4></a>
-                        <p>Nulla interdum dapibus erat nec elementum. Fusce aliquet tempor mi, vitae sollicitudin arcu convallis id. Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque.</p>
+                        <a href="service/construction.php"><h4>Process Controls</h4></a>
+                        <p>Building Construction is one of our strong suits.  Highground has been an integral part of many high-visibility projects over the past decade as a leader in the industry.  </p>
                         <a class="read-more" href="service/construction.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>
@@ -262,8 +164,8 @@
                         <a href="service/communications.php">
                             <img src="http://placehold.it/800x500" alt="" class="img-responsive">
                         </a>
-                        <a href="service/communications.php"><h4>Communications Enginerring</h4></a>
-                        <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim. </p>
+                        <a href="service/communications.php"><h4>Testing & Studies</h4></a>
+                        <p>Communications Engineering is synonomous with Controls Engineering projects.  Highground has been involved in some of the most complicated controls engineering projects.  </p>
                         <a class="read-more" href="service/communications.php">Read More <span class="fa fa-chevron-circle-right"></span></a>
                     </div>
                 </div>

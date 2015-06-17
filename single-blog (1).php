@@ -124,9 +124,9 @@
                     <li class="dropdown active">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="blog.php">Blog Default</a></li>
-                        <li><a href="blog-3col.php">Blog - 3 Col</a></li>
-                        <li><a href="blog-2col.php">Blog - 2 Col</a></li>
+                        <li><a href="awards.php">Blog Default</a></li>
+                        <li><a href="awards-3col.php">Blog - 3 Col</a></li>
+                        <li><a href="awards-2col.php">Blog - 2 Col</a></li>
                         <li class="active"><a href="single-blog.php">Single Blog Post</a></li>
                       </ul>
                     </li>
@@ -161,7 +161,7 @@
             <h2 class="pull-left">Single Blog Post</h2>
             <ol class="breadcrumb pull-right">
               <li><a href="index.html">Home</a></li>
-              <li><a href="blog.php">News Blog</a></li>
+              <li><a href="awards.php">News Blog</a></li>
               <li class="active">Single Blog Post</li>
             </ol>
         </div>

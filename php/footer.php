@@ -7,13 +7,13 @@
 
                     <div class="col-sm-5 col-md-5">
                         <div class="widget">
-                            <div class="widget-title text-left">
+                            <div class="widget-title text-left"> 
                                 <h4>About Us</h4>
                                 <hr>
                             </div>
-                            <a class="logo footer-logo" href="#">Highground</a>
+                            <a class="logo footer-logo" href="#">Highground Services</a>
                             <br>
-                            <small>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </small>
+                            <small>Highground is your one-stop shop for Engineering, Construciton, and Industrial Services.  We've perfected our skills over the last decade to provide our industries with the highest quality services. </small>
                             <br>
                             <br>
                             <address>
@@ -34,7 +34,7 @@
                             </div>
                             <ul class="list-unstyled list-block">
                                 <li><i class="fa fa-long-arrow-right"></i><a href="#">MechanicalEngineering</a></li>
-                                <li><i class="fa fa-long-arrow-right"></i> <a href="#">Electrical</a></li>
+                                <li><i class="fa fa-long-arrow-right"></i> <a href="#">Electrical Engineering</a></li>
                                 <li><i class="fa fa-long-arrow-right"></i><a href="#">Construction Services</a></li>
                                 <li><i class="fa fa-long-arrow-right"></i><a href="#">Industrial Services</a></li>
                                 <li><i class="fa fa-long-arrow-right"></i><a href="#">Controls Integration</a></li>
@@ -129,7 +129,7 @@
                                     </a>
                                   </div>
                                   <div class="media-body">
-                                    <a href="#"><h5>Construction Going Green - Green Architecture</h5></a>
+                                    <a href="#"><h5>Construction Going Green - Green Engineering</h5></a>
                                     <small>Our planet is really feeling the heat of Global Warming. Humans are...</small>
                                   </div>
                             </div>

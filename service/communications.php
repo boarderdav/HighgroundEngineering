@@ -124,9 +124,9 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="../blog.php">Blog Default</a></li>
-                        <li><a href="../blog-3col.php">Blog - 3 Col</a></li>
-                        <li><a href="../blog-2col.php">Blog - 2 Col</a></li>
+                        <li><a href="../awards.php">Blog Default</a></li>
+                        <li><a href="../awards-3col.php">Blog - 3 Col</a></li>
+                        <li><a href="../awards-2col.php">Blog - 2 Col</a></li>
                         <li><a href="../single-blog.php">Single Blog Post</a></li>
                       </ul>
                     </li>
