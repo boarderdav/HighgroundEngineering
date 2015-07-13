@@ -82,7 +82,7 @@
                     <div class="section-title text-left"> <!-- Left Section Title -->
                         <h2>Our <br>History</h2>
                         <hr>
-                        <p>Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim.</p>
+                        <p>Our history is rooted in the great values we provide  with Quisque porttitor sem libero auctor lorem fringilla sit amehasellus gravida nisi elitam egestda. Sedquis viverra enim.</p>
                         
                         <div id="popup">
                             <a class="read-more" href="https://www.youtube.com/watch?v=L9szn1QQfas">Watch Video For More Info <span class="fa fa-chevron-circle-right"></span></a>
