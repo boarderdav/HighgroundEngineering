@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <!-- Header short -->
-    <?php include('php/header_nav.php');?>
+    <?php include('../php/header_nav.php');?>
     
     <!-- Favicons
     ================================================== -->
@@ -73,7 +73,8 @@
                         <li class="top-contact">
                             <ol class="list-inline">
                                 <li><i class="fa fa-phone"></i> : 757 - 562 - 7080</li>
-                                <li><i class="fa fa-envelope-o"></i> : <?php include 'globals.php'; echo $site_email;?></li>
+                                <li><i class="fa fa-envelope-o"></i> : <?php include '../globals.php'; echo
+                                    $site_email;?></li>
                             </ol>
                         </li>
                         <li>
@@ -261,7 +262,7 @@
                         <h2>Looking for the Best Engineering Solution for your Project?</h2>
                     </div>
                     <div class="col-md-3">
-                        <a class="btn btn-default en-btn light" href="contact.html" role="button">Get Started Now</a>
+                        <a class="btn btn-default en-btn light" href="../contact.php" role="button">Get Started Now</a>
                     </div>
                 </div>
             </div>
@@ -269,26 +270,7 @@
     </div>
 
     <!-- Footer Area -->
-	<?php include('php/footer.php');?>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="../js/bootstrap.js"></script>
-
-    <script type="text/javascript" src="../js/owl.carousel.js"></script><!-- Owl Carousel Plugin -->
-    <script type="text/javascript" src="../js/SmoothScroll.js"></script><!-- Page Smooth Scrolling Effect -->
-    <script type="text/javascript" src="../js/nivo-lightbox.min.js"></script><!-- LightBox Nivo -->
-
-    <!-- Portfolio Filter -->
-    <script type="text/javascript" src="../js/jquery.isotope.js"></script>
-    <script type="text/javascript" src="../js/imagesloaded.js"></script>
-    
-    <!-- Javascripts
-    ================================================== -->
-    <script type="text/javascript" src="../js/main.js"></script>
+	<?php include('../php/footer.php');?>
 
     </body>
 </html>
