@@ -2,6 +2,20 @@
 Thumbs.db
 ehthumbs.db
 
+*.iml
+*.psd
+workspace.xml
+tasks.xml
+*.ini
+composer.phar
+/vendor/
+/vendor/**/.git
+.idea/
+*.iws
+/out/
+.idea_modules
+.DS_Store*
+
 # Folder config file
 Desktop.ini
 deskttop.ini
