@@ -144,7 +144,7 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="service"> <!-- Service #1 -->
                         <a href="service/civil-architecture.php">
-                            <img src="http://placehold.it/800x500" alt="" class="img-responsive">
+                            <img src="img/engineering1.jpg" alt="" class="img-responsive">
                         </a>
                         <a href="service/civil-architecture.php"><h4>Engineering</h4></a>
                         <p>Highground Services is a multi-discipline engineering services firm providing a broad range of services to our commercial and industrial customers. We excel in Mechanical, Electrical, and Controls engineering projects in the industrial, commercial, and municipal markets.</p>
@@ -155,7 +155,7 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="service"> <!-- Service #2 -->
                         <a href="service/mechanical.php">
-                            <img src="http://placehold.it/800x500" alt="" class="img-responsive">
+                            <img src="img/construction1.jpg" alt="" class="img-responsive">
                         </a>
                         <a href="service/mechanical.php"><h4>Construction</h4></a>
                         <p>Our construction services are broad as we cover the spectrum of electrical, civil, controls, and mechanical trades. We have a strongest background in electrical and custom control intregration systems. From conceptual engineering and construction to startup, we’re prepared to implement our construction services for any phase of your project.</p>
@@ -166,7 +166,7 @@
                 <div class="col-sm-4 col-md-4">
                     <div class="service"> <!-- Service #3 -->
                         <a href="service/electrical.php">
-                            <img src="http://placehold.it/800x500" alt="" class="img-responsive">
+                            <img src="img/industrial1.jpg" alt="" class="img-responsive">
                         </a>
                         <a href="service/electrical.php"><h4>Industrial Services</h4></a>
                         <p>We provide design, implementation, continuous improvement, and sustainability support for existing and new Process Control Systems implementing both Distributed Control Systems (DCS) and Programmable Logic Control Systems (PLC) for our customers.  </p>
