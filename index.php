@@ -207,9 +207,7 @@
                 <a class="read-more" href="project-3col.php">View All Works <span class="fa fa-chevron-circle-right"></span></a>
             </div>
 
-            <div id="portfolio-items" class="owl-carousel owl-theme">
-
-                <div class="item"><!-- Portfolio Item #1 -->
+                            <div class="item"><!-- Portfolio Item #1 -->
                     <div class="hover-bg">
                         <div class="hover-text off">
                             <h4>Jordan Bridge</h4>
@@ -217,7 +215,7 @@
                             <p>The Jordan Bridge was one of the biggest projects Highground has completed. View the project for more details about our success.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
-                        <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
+                        <img src="img/building1.png" alt="..." class="img-responsive">
                     </div>
                 </div>
 
@@ -226,10 +224,10 @@
                         <div class="hover-text off">
                             <h4>Engineering Studies</h4>
                             <br>
-                            <p>Highground has an accomplished resume of engineering studies for a variety of clients.  Check out some of the project's we've completed. </p>
+                            <p>Highground has an accomplished resume of engineering studies for a variety of clients. Check out some of the project's we've completed. </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
-                        <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
+                        <img src="img/building2.jpg" alt="..." class="img-responsive">
                     </div>
                 </div>
 
@@ -241,7 +239,7 @@
                             <p>Integrated controls projects are one of our specialties. We've worked with industry leaders to provide the best systems possible.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
-                        <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
+                        <img src="img/building3.jpg" alt="..." class="img-responsive">
                     </div>
                 </div>
 
@@ -253,7 +251,7 @@
                             <p>We've been involved with countless commercial building projects both large and small. Check out our past history of completed projects. </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
-                        <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
+                        <img src="img/building4.jpg" alt="..." class="img-responsive">
                     </div>
                 </div>
 
@@ -265,7 +263,7 @@
                             <p>We provide a variety of industrial services for our clients. High quality performance is what we strive for in every project.  </p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
-                        <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
+                        <img src="img/building4.jpg" alt="..." class="img-responsive">
                     </div>
                 </div>
 
@@ -277,7 +275,7 @@
                             <p>Technical writing is a skill that Highground has mastered.  Whether it's preventative maintenance plans, or technical documentation, we've handled it all.</p>
                             <a class="read-more" href="single-project.php">View Project <span class="fa fa-chevron-circle-right"></span></a>
                         </div>
-                        <img src="http://placehold.it/750x1000" alt="..." class="img-responsive">
+                        <img src="img/building3.jpg" alt="..." class="img-responsive">
                     </div>
                 </div>
 
