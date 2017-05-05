@@ -329,7 +329,7 @@
             <div class="row">
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #1 -->
-                        <span class="meta-date"><i class="fa fa-calendar"></i> March 25, 2015</span>
+                        <span class="meta-date"><i class="fa fa-calendar"></i> March 25, 2017</span>
                         <a href="single-blog.php"><h4>Map Out And Show Appealing Business Design Layouts</h4></a>
                         <hr>
                         <p class="meta">
@@ -349,7 +349,7 @@
 
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #2 -->
-                        <span class="meta-date"><i class="fa fa-calendar"></i> March 12, 2015</span>
+                        <span class="meta-date"><i class="fa fa-calendar"></i> March 12, 2017</span>
                         <a href="single-blog.php"><h4>Construction Going Green - Green Engineering/h4></a>
                         <hr>
                         <p class="meta">
@@ -369,7 +369,7 @@
 
                 <div class="col-sm-4 col-md-4">
                     <div class="news">  <!-- Blog Post/News #3 -->
-                        <span class="meta-date"><i class="fa fa-calendar"></i> March 6, 2015</span>
+                        <span class="meta-date"><i class="fa fa-calendar"></i> March 6, 2017</span>
                         <a href="single-blog.php"><h4>Combination Engineering & Construction Firms - Top 10 Benefits</h4></a>
                         <hr>
                         <p class="meta">

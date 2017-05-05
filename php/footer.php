@@ -154,7 +154,7 @@
         </div>
         <div class="bottom-footer">
             <div class="container text-center">
-                <p>All Rights Reserved © 2015 | <a href="#">Highground Services Inc.</a></p>
+                <p>All Rights Reserved © 2017 | <a href="#">Highground Services Inc.</a></p>
             </div>
         </div>
     </div>
