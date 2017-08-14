@@ -433,24 +433,7 @@
     <!-- Footer Area -->
 
 	<?php include('php/footer.php');?> 
-    
-    
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-
-    <script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl Carousel Plugin -->
-    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script><!-- LightBox Nivo -->
-
-    <!-- Portfolio Filter -->
-    <script type="text/javascript" src="js/jquery.isotope.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.js"></script>
-    
-    <!-- Javascripts
-    ================================================== -->
-    <script type="text/javascript" src="js/main.js"></script>
 
     </body>
 </html>
